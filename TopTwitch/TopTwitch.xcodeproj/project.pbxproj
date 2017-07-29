@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A76EDB2F1F2C37020026F438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76EDB2E1F2C37020026F438 /* AppDelegate.swift */; };
+		A76EDB311F2C37020026F438 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76EDB301F2C37020026F438 /* ViewController.swift */; };
+		A76EDB341F2C37020026F438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76EDB321F2C37020026F438 /* Main.storyboard */; };
+		A76EDB361F2C37020026F438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76EDB351F2C37020026F438 /* Assets.xcassets */; };
+		A76EDB391F2C37020026F438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76EDB371F2C37020026F438 /* LaunchScreen.storyboard */; };
+		A76EDB441F2C37020026F438 /* TopTwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76EDB431F2C37020026F438 /* TopTwitchTests.swift */; };
+		A76EDB4F1F2C37020026F438 /* TopTwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76EDB4E1F2C37020026F438 /* TopTwitchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A76EDB401F2C37020026F438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A76EDB231F2C37020026F438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A76EDB2A1F2C37020026F438;
+			remoteInfo = TopTwitch;
+		};
+		A76EDB4B1F2C37020026F438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A76EDB231F2C37020026F438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A76EDB2A1F2C37020026F438;
+			remoteInfo = TopTwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A76EDB2B1F2C37020026F438 /* TopTwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopTwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76EDB2E1F2C37020026F438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A76EDB301F2C37020026F438 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A76EDB331F2C37020026F438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A76EDB351F2C37020026F438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A76EDB381F2C37020026F438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A76EDB3A1F2C37020026F438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76EDB3F1F2C37020026F438 /* TopTwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopTwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76EDB431F2C37020026F438 /* TopTwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTwitchTests.swift; sourceTree = "<group>"; };
+		A76EDB451F2C37020026F438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76EDB4A1F2C37020026F438 /* TopTwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopTwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76EDB4E1F2C37020026F438 /* TopTwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTwitchUITests.swift; sourceTree = "<group>"; };
+		A76EDB501F2C37020026F438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A76EDB281F2C37020026F438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76EDB3C1F2C37020026F438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76EDB471F2C37020026F438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A76EDB221F2C37020026F438 = {
+			isa = PBXGroup;
+			children = (
+				A76EDB2D1F2C37020026F438 /* TopTwitch */,
+				A76EDB421F2C37020026F438 /* TopTwitchTests */,
+				A76EDB4D1F2C37020026F438 /* TopTwitchUITests */,
+				A76EDB2C1F2C37020026F438 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A76EDB2C1F2C37020026F438 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A76EDB2B1F2C37020026F438 /* TopTwitch.app */,
+				A76EDB3F1F2C37020026F438 /* TopTwitchTests.xctest */,
+				A76EDB4A1F2C37020026F438 /* TopTwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A76EDB2D1F2C37020026F438 /* TopTwitch */ = {
+			isa = PBXGroup;
+			children = (
+				A76EDB2E1F2C37020026F438 /* AppDelegate.swift */,
+				A76EDB301F2C37020026F438 /* ViewController.swift */,
+				A76EDB321F2C37020026F438 /* Main.storyboard */,
+				A76EDB351F2C37020026F438 /* Assets.xcassets */,
+				A76EDB371F2C37020026F438 /* LaunchScreen.storyboard */,
+				A76EDB3A1F2C37020026F438 /* Info.plist */,
+			);
+			path = TopTwitch;
+			sourceTree = "<group>";
+		};
+		A76EDB421F2C37020026F438 /* TopTwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A76EDB431F2C37020026F438 /* TopTwitchTests.swift */,
+				A76EDB451F2C37020026F438 /* Info.plist */,
+			);
+			path = TopTwitchTests;
+			sourceTree = "<group>";
+		};
+		A76EDB4D1F2C37020026F438 /* TopTwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A76EDB4E1F2C37020026F438 /* TopTwitchUITests.swift */,
+				A76EDB501F2C37020026F438 /* Info.plist */,
+			);
+			path = TopTwitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A76EDB2A1F2C37020026F438 /* TopTwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76EDB531F2C37020026F438 /* Build configuration list for PBXNativeTarget "TopTwitch" */;
+			buildPhases = (
+				A76EDB271F2C37020026F438 /* Sources */,
+				A76EDB281F2C37020026F438 /* Frameworks */,
+				A76EDB291F2C37020026F438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopTwitch;
+			productName = TopTwitch;
+			productReference = A76EDB2B1F2C37020026F438 /* TopTwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A76EDB3E1F2C37020026F438 /* TopTwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76EDB561F2C37020026F438 /* Build configuration list for PBXNativeTarget "TopTwitchTests" */;
+			buildPhases = (
+				A76EDB3B1F2C37020026F438 /* Sources */,
+				A76EDB3C1F2C37020026F438 /* Frameworks */,
+				A76EDB3D1F2C37020026F438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A76EDB411F2C37020026F438 /* PBXTargetDependency */,
+			);
+			name = TopTwitchTests;
+			productName = TopTwitchTests;
+			productReference = A76EDB3F1F2C37020026F438 /* TopTwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A76EDB491F2C37020026F438 /* TopTwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76EDB591F2C37020026F438 /* Build configuration list for PBXNativeTarget "TopTwitchUITests" */;
+			buildPhases = (
+				A76EDB461F2C37020026F438 /* Sources */,
+				A76EDB471F2C37020026F438 /* Frameworks */,
+				A76EDB481F2C37020026F438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A76EDB4C1F2C37020026F438 /* PBXTargetDependency */,
+			);
+			name = TopTwitchUITests;
+			productName = TopTwitchUITests;
+			productReference = A76EDB4A1F2C37020026F438 /* TopTwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A76EDB231F2C37020026F438 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Leonardo Saragiotto";
+				TargetAttributes = {
+					A76EDB2A1F2C37020026F438 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					A76EDB3E1F2C37020026F438 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A76EDB2A1F2C37020026F438;
+					};
+					A76EDB491F2C37020026F438 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A76EDB2A1F2C37020026F438;
+					};
+				};
+			};
+			buildConfigurationList = A76EDB261F2C37020026F438 /* Build configuration list for PBXProject "TopTwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A76EDB221F2C37020026F438;
+			productRefGroup = A76EDB2C1F2C37020026F438 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A76EDB2A1F2C37020026F438 /* TopTwitch */,
+				A76EDB3E1F2C37020026F438 /* TopTwitchTests */,
+				A76EDB491F2C37020026F438 /* TopTwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A76EDB291F2C37020026F438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76EDB391F2C37020026F438 /* LaunchScreen.storyboard in Resources */,
+				A76EDB361F2C37020026F438 /* Assets.xcassets in Resources */,
+				A76EDB341F2C37020026F438 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76EDB3D1F2C37020026F438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76EDB481F2C37020026F438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A76EDB271F2C37020026F438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76EDB311F2C37020026F438 /* ViewController.swift in Sources */,
+				A76EDB2F1F2C37020026F438 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76EDB3B1F2C37020026F438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76EDB441F2C37020026F438 /* TopTwitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76EDB461F2C37020026F438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76EDB4F1F2C37020026F438 /* TopTwitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A76EDB411F2C37020026F438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A76EDB2A1F2C37020026F438 /* TopTwitch */;
+			targetProxy = A76EDB401F2C37020026F438 /* PBXContainerItemProxy */;
+		};
+		A76EDB4C1F2C37020026F438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A76EDB2A1F2C37020026F438 /* TopTwitch */;
+			targetProxy = A76EDB4B1F2C37020026F438 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A76EDB321F2C37020026F438 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76EDB331F2C37020026F438 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A76EDB371F2C37020026F438 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76EDB381F2C37020026F438 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A76EDB511F2C37020026F438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A76EDB521F2C37020026F438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A76EDB541F2C37020026F438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TopTwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saragiotto.TopTwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A76EDB551F2C37020026F438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TopTwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saragiotto.TopTwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A76EDB571F2C37020026F438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TopTwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saragiotto.TopTwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopTwitch.app/TopTwitch";
+			};
+			name = Debug;
+		};
+		A76EDB581F2C37020026F438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TopTwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saragiotto.TopTwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopTwitch.app/TopTwitch";
+			};
+			name = Release;
+		};
+		A76EDB5A1F2C37020026F438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TopTwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saragiotto.TopTwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TopTwitch;
+			};
+			name = Debug;
+		};
+		A76EDB5B1F2C37020026F438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TopTwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saragiotto.TopTwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TopTwitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A76EDB261F2C37020026F438 /* Build configuration list for PBXProject "TopTwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76EDB511F2C37020026F438 /* Debug */,
+				A76EDB521F2C37020026F438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76EDB531F2C37020026F438 /* Build configuration list for PBXNativeTarget "TopTwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76EDB541F2C37020026F438 /* Debug */,
+				A76EDB551F2C37020026F438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A76EDB561F2C37020026F438 /* Build configuration list for PBXNativeTarget "TopTwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76EDB571F2C37020026F438 /* Debug */,
+				A76EDB581F2C37020026F438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A76EDB591F2C37020026F438 /* Build configuration list for PBXNativeTarget "TopTwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76EDB5A1F2C37020026F438 /* Debug */,
+				A76EDB5B1F2C37020026F438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A76EDB231F2C37020026F438 /* Project object */;
+}
