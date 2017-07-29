@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A76EDB2F1F2C37020026F438 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76EDB2E1F2C37020026F438 /* AppDelegate.swift */; };
-		A76EDB311F2C37020026F438 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76EDB301F2C37020026F438 /* ViewController.swift */; };
 		A76EDB341F2C37020026F438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76EDB321F2C37020026F438 /* Main.storyboard */; };
 		A76EDB361F2C37020026F438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76EDB351F2C37020026F438 /* Assets.xcassets */; };
 		A76EDB391F2C37020026F438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76EDB371F2C37020026F438 /* LaunchScreen.storyboard */; };
 		A76EDB441F2C37020026F438 /* TopTwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76EDB431F2C37020026F438 /* TopTwitchTests.swift */; };
 		A76EDB4F1F2C37020026F438 /* TopTwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76EDB4E1F2C37020026F438 /* TopTwitchUITests.swift */; };
+		A76EDB5D1F2C37BE0026F438 /* TwitchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76EDB5C1F2C37BE0026F438 /* TwitchTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		A76EDB2B1F2C37020026F438 /* TopTwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopTwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76EDB2E1F2C37020026F438 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A76EDB301F2C37020026F438 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A76EDB331F2C37020026F438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A76EDB351F2C37020026F438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A76EDB381F2C37020026F438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		A76EDB4A1F2C37020026F438 /* TopTwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopTwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A76EDB4E1F2C37020026F438 /* TopTwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTwitchUITests.swift; sourceTree = "<group>"; };
 		A76EDB501F2C37020026F438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76EDB5C1F2C37BE0026F438 /* TwitchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitchTableViewController.swift; path = ../TwitchTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A76EDB2E1F2C37020026F438 /* AppDelegate.swift */,
-				A76EDB301F2C37020026F438 /* ViewController.swift */,
+				A76EDB5C1F2C37BE0026F438 /* TwitchTableViewController.swift */,
 				A76EDB321F2C37020026F438 /* Main.storyboard */,
 				A76EDB351F2C37020026F438 /* Assets.xcassets */,
 				A76EDB371F2C37020026F438 /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A76EDB311F2C37020026F438 /* ViewController.swift in Sources */,
+				A76EDB5D1F2C37BE0026F438 /* TwitchTableViewController.swift in Sources */,
 				A76EDB2F1F2C37020026F438 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
